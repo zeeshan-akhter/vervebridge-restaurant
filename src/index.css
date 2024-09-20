@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2ecc71;
+    padding: 10px 20px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    color: white;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin: 0 15px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero-section {
+    padding: 50px;
+    background-color: #ecf0f1;
+  }
+  
+  .hero-section h2 {
+    font-size: 36px;
+  }
+  
+  .popular-categories, .menu-section, .testimonials, .footer {
+    padding: 50px;
+  }
+  
+  .menu-items, .categories {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu-item, .category {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .footer {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
